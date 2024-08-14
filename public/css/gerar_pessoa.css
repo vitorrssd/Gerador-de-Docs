@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+}
+.info-text-style{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 1530px;
+    height: 60px;
+    position: relative;
+    left: 20rem;
+    background: #1a202c;
+    align-items: center;
+}
+.info-text{
+    position: relative;
+    color: #f7fafc;
+    left: 27rem;
+}
+.info-text-two{
+    position: relative;
+    color: #f7fafc;
+    left: 45rem;
+}
+.person-info{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 1530px;
+    height: 200px;
+    top: 30px;
+    position: relative;
+    left: 20rem;
+    background: #1a202c;
+}
+.option-one-position{
+    position: relative;
+    left: 10rem;
+}
+.option-two-age-position{
+    position: relative;
+    left: 35rem;
+    bottom: 85px;
+}
+.option{
+    color: #f7fafc;
+}
+.gender{
+    color: #f7fafc;
+}
+#age{
+    background: #1a202c;
+    color: #f7fafc;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    cursor:pointer;
+    outline: none;
+    width: 200px;
+    height: 30px;
+}
+.option-three-state-position{
+    position: relative;
+    left: 65rem;
+    bottom: 11.40rem;
+}
+#cep-estado{
+    background: #1a202c;
+    color: #f7fafc;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    cursor:pointer;
+    outline: none;
+    width: 200px;
+    height: 30px;
+}
+.form-container{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 1530px;
+    height: 500px;
+    top: 100px;
+    position: relative;
+    left: 20rem;
+    background: #1a202c;
+    display: flex;
+    gap: 750px;
+}
+.personal-data{
+    position: relative;
+    color: #f7fafc;
+    left: 44rem;
+}
+.form-title{
+    color: #9c9d9d;
+    left: 10px;
+    position: relative;
+}
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-input-style{
+    position: relative;
+    border: 1px #7b7e81 solid;
+    border-radius: 5px;
+    height: 25px;
+    width: 600px;
+}
+.fa-copy{
+    color: #f7fafc;
+    padding: 5px;
+    position: absolute;
+    left: 95%;
+    cursor:pointer;
+}
+.button_person{
+position: absolute;
+    font-size: 20px;
+    top: 3rem;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: none;
+    background: #6a6877;
+    color: #f7fafc;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+}
+.button_person:hover{
+    background: #181836;
+}
+.form-flex-second{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.text-input-style{
+    position: relative;
+    top: 5px;
+    color: #f7fafc;
+    font-weight: 500;
+}
+.show{
+    visibility: visible;
+}

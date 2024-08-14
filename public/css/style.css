@@ -1,0 +1,362 @@
+.info-text-style{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 1530px;
+    height: 60px;
+    position: relative;
+    left: 20rem;
+    background: #1a202c;
+    text-align: center;
+}
+body{
+    overflow-x: hidden;
+}
+.text-information{
+    position: relative;
+    color: #f7fafc;
+    padding: 5px;
+    font-size: 18px;
+}
+.options{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 1000px;
+    height: 200px;
+    top: 30px;
+    position: relative;
+    left: 35rem;
+    background: #1a202c;
+}
+.option-one-state-position{
+    position: relative;
+    left: 10rem;
+    top: -10px;
+}
+.option{
+    color: #f7fafc;
+}
+.info-text2{
+    position: relative;
+    color: #f7fafc;
+    left: 28rem;
+}
+.option-two-age-position{
+    position: relative;
+    left: 65rem;
+    bottom: 105px;
+}
+.input-text{
+    color: #9c9d9d;
+    left: 10px;
+    position: relative;
+    font-size: 18px;
+}
+.form-container{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 1530px;
+    height: 500px;
+    top: 100px;
+    position: relative;
+    left: 20rem;
+    background: #1a202c;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+.input-style{
+    position: relative;
+    border: 1px #7b7e81 solid;
+    border-radius: 5px;
+    height: 25px;
+    width: 600px;
+    color: #f7fafc;
+}
+.fa-copy{
+    color: #f7fafc;
+    padding: 5px;
+    position: absolute;
+    left: 95%;
+    cursor:pointer;
+}
+.form-container-second{
+    position: absolute;
+    bottom: 2.30rem;
+    left: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text-input-style{
+    position: relative;
+    top: 5px;
+    color: #f7fafc;
+    font-weight: 500;
+}
+.button-female{
+    left: 45rem;
+}
+.button-male{
+    left: 2rem;
+}
+
+.button-company,
+.button-female,
+.button-male,
+.btn-menu {
+    position: absolute;
+    font-size: 20px;
+    top: 4rem;
+    width: 200px;
+    height: 100px;
+    background: #1a202c;
+    color: #f7fafc;
+    border: 20px solid linear-gradient(90deg, rgba(15,10,98,1) 0%, rgba(255,255,255,0.7455357142857143) 66%, rgba(255,255,255,0.5578606442577031) 100%);
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-company{
+    left: 397px;
+}
+.btn-menu{
+  visibility: hidden;
+}
+.button-company:hover,
+.button-female:hover,
+.button-male:hover {
+    background: #040b25;
+}
+.info-text3{
+    position: relative;
+    color: #f7fafc;
+    left: 28rem;
+}
+
+#info-container{
+    position: absolute;
+    color: #f7fafc;
+}
+#icon-docs{
+    top: -15px;
+    position: absolute;
+    font-size: 60px;
+    color: #f7fafc;
+    left: 6rem;
+}
+@media (max-width: 1880px) {
+    .info-text-style,
+    .options,
+    .form-container {
+        width: 70%;
+        left: 22%;
+    }
+    .fa-folder-open{
+        visibility: hidden;
+    }
+    .info-text2,
+    .info-text3 {
+        left: 41%;
+    }
+
+    .button-female,
+    .button-male {
+        width: 130px;
+        height: 60px;
+        font-size: 11px;
+        top: 90px;
+        transform: translateX(-50%);
+        font-size: 15px;
+    }
+    .button-company{
+        left: 37%;
+    }
+    .button-female{
+        left: 20%;
+
+    }
+    .button-male {
+        left: 83%;
+    }
+    .input-style {
+        width: 50%;
+    }
+    .form-container-second{
+        width: 64%;
+        top:46%;
+        left: 59%;
+    }
+    
+}
+@media (max-width: 1024px) {
+    .info-text-style,
+    .options,
+    .form-container {
+        width: 65%;
+        left: 32.70%;
+    }
+    .fa-folder-open{
+        visibility: hidden;
+    }
+    .info-text2,
+    .info-text3 {
+        left: 41%;
+    }
+
+    .button-female,
+    .button-male {
+        width: 130px;
+        height: 60px;
+        font-size: 11px;
+        top: 90px;
+        transform: translateX(-50%);
+        font-size: 15px;
+    }
+    .button-company{
+        left: 30%;
+    }
+    .button-female{
+        left: 20%;
+
+    }
+    .button-male {
+        left: 83%;
+    }
+    .form-container-second{
+        display: block;
+        left: 35%;
+        top: 106%;
+        width: 64%;
+    }
+    .input-style {
+        width: 98%;
+    }
+    .form-container{
+        height: 850px;
+    }
+   
+}
+@media screen and (max-width: 868px) {
+    .info-text-style,
+    .options,
+    .form-container {
+        width: 65%;
+        left: 35%;
+    }
+    .fa-folder-open{
+        visibility: hidden;
+    }
+    .info-text2,
+    .info-text3 {
+        left: 41%;
+    }
+
+    .button-female,
+    .button-male {
+        width: 130px;
+        height: 60px;
+        font-size: 11px;
+        top: 90px;
+        transform: translateX(-50%);
+        font-size: 15px;
+    }
+    .button-company{
+        left: 30%;
+    }
+    .button-female{
+        left: 20%;
+
+    }
+    .button-male {
+        left: 83%;
+    }
+    .form-container-second{
+        display: block;
+        left: 35%;
+        top: 106%;
+        width: 64%;
+    }
+    .input-style {
+        width: 98%;
+    }
+    .form-container{
+        height: 850px;
+    }
+   
+}
+/* Telas menores que 480px */
+@media screen and (max-width: 480px) {
+    .info-text-style,
+    .options,
+    .form-container {
+        left: 10px;
+        width: 95%;
+    }
+    .button-company{
+        left: 27.20%;
+    }
+    .info-text2,
+    .info-text3 {
+        text-align: center;
+        left: 0;
+        transform: none;
+    }
+    .text-information{
+      font-size: 17px;
+      bottom: 10px;
+     }
+    .button-female,
+    .button-male {
+        width: 100px;
+        height: 50px;
+        font-size: 11px;
+        top: 90px;
+        left: 77px;
+        transform: translateX(-50%);
+        visibility: visible;
+    }
+    .button-female{
+        left: 80%;
+    }
+    .btn-menu{
+        visibility: visible;
+        top: 1.60rem;
+        width: 60px;
+        font-size: 15px;
+        height: 30px;
+        z-index: 1;
+        left: 80%;
+    }
+    .fa-copy {
+        left: auto;
+        right: 5px;
+    }
+    .input-style {
+        width: 98%;
+    }
+    .fa-folder-open{
+        visibility: hidden;
+    }
+    .form-container{
+        height: 850px;
+    }
+    .form-container-second{
+        display: block;
+        left: 20px;
+        top: 107%;
+        width: 91%;
+    }
+}
+@media screen and (max-width: 390px) {
+    .button-company{
+        left: 20%;
+    }
+    .form-container-second{
+        display: block;
+        left: 20px;
+        top: 115%;
+        width: 91%;
+    }
+    .form-container {
+        height: 890px;
+    }
+}

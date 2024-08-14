@@ -1,0 +1,115 @@
+.info-text-style{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 1530px;
+    height: 60px;
+    position: relative;
+    left: 20rem;
+    background: #1a202c;
+    text-align: center;
+}
+body{
+    overflow-x: hidden;
+}
+.text-information{
+    position: relative;
+    color: #f7fafc;
+    padding: 5px;
+    font-size: 18px;
+}
+.form-container{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 1530px;
+    height: 650px;
+    top: 5rem;
+    position: relative;
+    left: 20rem;
+    background: #1a202c;
+    display: flex;
+    gap: 15rem;
+}
+.price-box{
+    top: 20px;
+    left: 60px;
+    position: relative;
+    border: none;
+    height: 600px;
+    width: 300px;
+    background: #10141a;
+    align-items: center;
+    text-align: center;
+}
+.text-price{
+    color: #b4b4b9;
+    font-weight: 400;
+    position: relative;
+    top: 25px;
+    font-size: 25px;
+}
+.number{
+    position: relative;
+    color: #cdd1de;
+    font-size: 40px;
+    border:  #b4b4b9 1px solid;
+    right: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+}
+.number-style{
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    border: 1px red none;
+    width: 100px;
+    height: 100px;
+}
+.promotion{
+    position: absolute;
+    bottom: 1rem;
+    right: 25px;
+    padding: 12px;
+    color: #0e0e0e;
+    font-weight: bolder;
+    border: red 1px none;
+    border-radius: 10px;
+    background: #b48308;
+    width: 60px;
+    height: 20px;
+}
+.benefits{
+    position: absolute;
+    justify-content: right;
+    text-align: left;
+    top: 200px;
+    left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.text-benefits{
+    color: #b4b4b9;
+    font-size: 18px;
+}
+.fa-circle-check{
+    position: relative;
+    right: 20px;
+}
+.pay{
+    position: relative;
+    top: 73%;
+    background: #b48308;
+    border-radius: 10px;
+    border: none;
+    color: #0e0e0e;
+    font-weight: bolder;
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+.pay:hover{
+    background: #986f07;
+}
+
+
